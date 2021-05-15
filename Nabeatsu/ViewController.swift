@@ -51,6 +51,11 @@ class ViewController: UIViewController {
             faceLabel.text = "(゜o゜)"
         }
     }
-
+   
+   @IBAction func clear(){
+        number = 0
+        countLabel .text = String(number)
+    }
+    
 }
 
